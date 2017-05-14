@@ -32,12 +32,12 @@ The Canary DAT update (Appendix C) is a Python script handled by an AWS Lambda f
 
 The CSV file is created from this 3rd party provided Google Sheet. It is available here: https://docs.google.com/spreadsheets/d/1TWS238xacAto-fLKh1n5uTsdijWdCEsGIM0Y0Hvmc5g/pubhtml
 
-The completed DAT file created by the AWS Lambda function can be accessed here: [READCTED]/ransomware.dat
+The completed DAT file created by the AWS Lambda function can be accessed here: [REDACTED]/ransomware.dat
 
 The Lambda function has a trigger called “Crypto_Canary_daily_update” that causes it to run every 24 hours: 
 
 CloudWatch Events - Schedule: Crypto_Canary_daily_update
-arn:aws:[READCTED]:rule/Crypto_Canary_daily_update
+arn:aws:[REDACTED]:rule/Crypto_Canary_daily_update
 Schedule expression: rate(24 hours)Description: Rule to schedule Crypto Canary to update every 24 hours.
 
 4.4	Puppet Module
